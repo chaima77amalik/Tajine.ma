@@ -1,0 +1,350 @@
+@import url("fonte/style.css");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gliker;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+}
+.logo img{
+    
+    width: 160px;
+    cursor: pointer;
+}
+#navbarNav ul{
+    margin-left: 5rem;
+    letter-spacing: 2px;
+}
+.linkitem a:hover{
+  background-color: #ef5423;
+  color: white;
+  border-radius: 10px;
+}
+.btn-book{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Gliker;
+    border: 2px solid #ef5423;
+    border-radius: 20px;
+}
+.btn-book:hover{
+    background-color: #ef5423;
+    color: white;
+}
+hr{
+    width: 100%;
+    color: #ac633a;
+}
+.banner video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .banner video{
+        width: 100%;
+        height: auto;
+    }
+}
+.contant{
+    margin-top: 7%;
+}
+.contat-text{
+    letter-spacing: 2px;
+}
+.btn1 a{
+   text-decoration: none;
+   background-color: #ef5423;
+   color: white;
+   padding: 18px;
+   border-radius: 10px;
+   letter-spacing: 2px;
+}
+.btn2 a{
+   text-decoration: none;
+   color: white;
+   border: 2px solid #ef5423;
+   border-radius: 10px;
+   padding: 18px;
+   letter-spacing: 2px;
+}
+.btn2 a:hover{
+    background-color: #ef5423;
+    color: white;
+}
+span{
+    color: #ef5423;
+}
+/*Start zalija */
+.zalija{
+    background-image: url(image/zalij.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    margin: 0;
+}
+/*End zalija */
+/*Start Why choose tajine*/
+.all-why-choose{
+    background-color: #854c2c;
+}
+.conet{
+    margin-top: 30px;
+}
+.conet img{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.conet h1{
+    margin-left: 60px;
+    color: white;
+}
+.cole p{
+    margin-top:30px ;
+    color: white;
+    line-height: 35px;
+    letter-spacing: 3px;
+}
+/*End Why choose tajine*/
+/*Start special menu*/
+.special{
+    background-color: #854c2c;
+    width: 100%;
+    height: auto;
+}
+.card h5{
+letter-spacing: 10px;
+}
+.card p{
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+.card-dor img{
+    border: 3px solid white;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+/*End special menu*/
+
+/*Start Gallry*/
+.gallry{
+    background-color: #854c2c;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.card-glr img {
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+.card-glr img:hover {
+    transform: scale(1.05);
+}
+/*End Gallry*/
+
+.our-chef{
+    background-color: #854c2c;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.gallery img{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.slider-insta{
+    background-color: #854c2c;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.feedback{
+    background-color: #854c2c;
+    width: 100%;
+    height:auto;
+    padding-bottom: 30px;
+}
+.comment img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.comment{
+    background-color: #ac633a;
+    width: 500px;
+    height: auto;
+    border-radius:20px ;
+    padding: 30px;
+}
+.book-img{
+    width: 100%;
+    height: auto;
+    background-image: url(image/book-table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-book{
+    background-color: #854c2c;
+    padding-bottom: 10px;
+}
+.book-text{
+    background-color: #ac633a;
+    height: 650px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.btn12 a{
+    margin-top: 50px; 
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #ef5423;
+    padding: 18px;
+    letter-spacing: 10px;
+   
+}
+.book-text input{
+    border:6px solid #854c2c;
+    border-radius: 15px;
+    background-color: #854c2c;
+
+}
+.footer{
+    background-color: #854c2c;
+    width: 100%;
+    height:auto;
+}
+.copy{
+    width: 100%;
+    height: 30px;
+    background-color: #ac633a;
+}
+
+/*start page menu breakfast*/
+.breakfast{
+    width: 100%;
+    height: 60vh;
+    background-image: url(image/menubreakfast.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*End page menu breakfast*/
+/*start page menu ramadan*/
+.ramadan{
+    background-image: url(image/ramadan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+/*end page menu ramadan*/
+
+/*start alles menu*/
+.menubreakfast{
+    background-color:#ac633a;
+    width: 100%;
+    height: auto;
+}
+.menu-title {
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .menu-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .menu-list li:last-child {
+    border-bottom: none;
+  }
+  .menu-list li p {
+    letter-spacing: 3px;
+    margin: 0;
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
+  .menu-list li .price {
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  /*End alles menu */
+  /*Start page about us*/
+  .about-us{
+    width: 100%;
+    height: 60vh;
+    background-image: url(image/aboutus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-story{
+    background-color: #854c2c;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+.img-our-story{
+    width: 100%;
+    height: 90vh;
+    background-image: url(image/our-story.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+.imgour-mess{
+    width: 100%;
+    height: 90vh;
+    background-image: url(image/our-mess.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+  /*end page about us*/
+/*Start page Contact Us*/
+.contact-us{
+    width: 100%;
+    height: 60vh;
+    background-image: url(image/contactus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contant-contact{
+    background-color: #854c2c;
+    height: auto;
+    width: 100%;
+    padding-bottom: 40px;
+}
+/*End page Contact Us*/
+/*start page blog*/
+.blog-ous{
+    width: 100%;
+    height: 60vh;
+    background-image: url(image/blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog{
+    background-color: #854c2c;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+/*end page blog*/
