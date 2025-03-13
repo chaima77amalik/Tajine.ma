@@ -111,6 +111,22 @@ span{
     letter-spacing: 3px;
 }
 /*End Why choose tajine*/
+/*Start slider image*/
+.carousel-inner {
+    height: 90vh; 
+  }
+  @media (max-width: 768px) {
+    .carousel-inner {
+      height: 60vh; 
+    }
+  }
+
+  @media (max-width: 576px) {
+    .carousel-inner {
+      height: 40vh;
+    }
+  }
+/*End slider image*/
 /*Start special menu*/
 .special{
     background-color: #854c2c;
@@ -136,16 +152,20 @@ letter-spacing: 10px;
     background-color: #854c2c;
     width: 100%;
     height: auto;
-    padding-bottom: 30px;
+    padding: 20px 0;
 }
-.card-glr img {
+.img-fluid{
     cursor: pointer;
     transition: 0.3s;
     border: none;
 }
-.card-glr img:hover {
+.img-fluid:hover {
     transform: scale(1.05);
 }
+.gallery img {
+      border-radius: 10px; 
+      transition: transform 0.3s ease;
+    }
 /*End Gallry*/
 
 .our-chef{
@@ -171,14 +191,13 @@ letter-spacing: 10px;
     padding-bottom: 30px;
 }
 .comment img{
-    width: 80px;
-    height: 80px;
+
     border-radius: 50%;
     object-fit: cover;
 }
 .comment{
     background-color: #ac633a;
-    width: 500px;
+
     height: auto;
     border-radius:20px ;
     padding: 30px;
@@ -252,6 +271,7 @@ letter-spacing: 10px;
     background-color:#ac633a;
     width: 100%;
     height: auto;
+    padding-bottom: 20px;
 }
 .menu-title {
     letter-spacing: 3px;
@@ -358,6 +378,5 @@ letter-spacing: 10px;
     background-size: cover;
     background-color: #ac633a;
     margin: 0;
-
 }
 /*end page ramadan*/
