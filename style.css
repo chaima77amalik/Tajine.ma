@@ -263,7 +263,8 @@ letter-spacing: 10px;
   }
   .menu-list {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
+    margin: 0;
   }
   .menu-list li {
     display: flex;
@@ -348,3 +349,15 @@ letter-spacing: 10px;
     padding: 40px;
 }
 /*end page blog*/
+/*start page ramadan*/
+.ramadanvibe{
+    width: 100%;
+    height: auto;
+    background-image: url(image/ramadanvibe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ac633a;
+    margin: 0;
+
+}
+/*end page ramadan*/
